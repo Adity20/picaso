@@ -26,8 +26,8 @@ GPT-Teaching-Assistant/
 
 ### 1. Clone the Repository
 ```sh
-git clone https://github.com/Naman7642Singla/gpt-teaching-assistant.git
-cd GPT-Teaching-Assistant
+git clone https://github.com/Adity20/picaso
+cd picaso
 ```
 
 ### 2. Backend Setup
@@ -60,9 +60,4 @@ npm run dev
 4. The AI model generates a response, which is sent back to the frontend.
 5. The response is displayed to the user in a chat format.
    
-
-
-
----
-Made with ❤️ by Naman Singla 🚀
 
