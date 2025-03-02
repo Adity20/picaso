@@ -43,7 +43,12 @@ function App() {
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   };
-
+  const handleKeyPress = (e) => {
+    if (e.key === 'Enter' && !e.shiftKey) {
+      e.preventDefault();
+      handleSubmit(e);
+    }
+  };
   const handleSubmit = async (e) => {
     e.preventDefault();
     
@@ -215,6 +220,7 @@ function App() {
               <textarea
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
+                onKeyDown={handleKeyPress}
                 placeholder="Describe your doubt or question about the problem..."
                 rows="3"
                 className="w-full rounded-lg border border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-white p-2.5 focus:outline-none focus:ring-1 focus:ring-indigo-500 dark:focus:ring-indigo-400 resize-none"
