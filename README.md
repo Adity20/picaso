@@ -1,7 +1,7 @@
-# GPT Teaching Assistant
+# Picaso
 
 ## Overview
-GPT Teaching Assistant is an AI-powered chatbot designed to help users understand Data Structures and Algorithms (DSA) problems. Users can submit a LeetCode problem URL along with their doubts, and the chatbot will provide hints and explanations to guide them toward solutions without giving direct answers.
+Picaso is an AI-powered chatbot designed to help users understand Data Structures and Algorithms (DSA) problems. Users can submit a LeetCode problem URL along with their doubts, and the chatbot will provide hints and explanations to guide them toward solutions without giving direct answers.
 
 ## Features
 - AI-driven guidance using **Gemini-3.5-Turbo**.
