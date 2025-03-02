@@ -106,7 +106,7 @@ function App() {
           </div>
           
           <div className="flex items-center space-x-4">
-            <button 
+            {/* <button 
               onClick={toggleDarkMode}
               className="p-2 rounded-full hover:bg-indigo-700 dark:hover:bg-indigo-900 transition-colors"
               aria-label="Toggle dark mode"
@@ -120,7 +120,7 @@ function App() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
                 </svg>
               )}
-            </button>
+            </button> */}
             <a href="https://github.com/nikhilyadav24" 
               target="_blank" 
               rel="noopener noreferrer"
@@ -168,7 +168,7 @@ function App() {
       </div>
 
       {/* Feature Box */}
-      <div className="bg-indigo-50 dark:bg-gray-800 p-1 border-t border-indigo-100 dark:border-gray-700">
+      {/* <div className="bg-indigo-50 dark:bg-gray-800 p-1 border-t border-indigo-100 dark:border-gray-700">
         <div className="container mx-auto max-w-4xl">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="bg-white dark:bg-gray-700 p-4 rounded-lg shadow-sm flex flex-col items-center">
@@ -194,7 +194,7 @@ function App() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Input form */}
       <div className="p-4 bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 shadow-inner">
